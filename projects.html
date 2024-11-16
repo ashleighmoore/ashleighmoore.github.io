@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home | Ashleigh Moore</title>
+    <link rel="stylesheet" href="/CSS/projects.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="master">
+        <div class="nav">
+            <nav>
+
+                    <ul>
+                        <li><a href="home.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="projects.html">Projects & Works</a></li>
+
+                        <li onclick="changingSide()"><i class="ri-menu-fill"> Open</i></li>
+
+                        <!-- https://remixicon.com/icon/close-fill -->
+                        
+                    </ul>
+                </nav>
+
+
+            </div>
+        
+        <div class="sidebar" id="closeMenu">
+            <ul>
+                <li onclick="changingSide()"><i class="ri-close-line"> Close</i></li>
+                <!-- https://remixicon.com/icon/close-close -->
+                <br>
+                <li><a href="home.html">About Me</a></li>  
+                <li><a href="resume.html">Resume</a></li>              
+                <li><a href="projects.html">Projects & Works</a></li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+
+        <header class="header">
+            <div class="container"> <!-- we need the container to lock it into a certain width -->
+                <div>
+                    <h1> Projects & Works </h1>
+                   
+                    <br>
+                        <p>This page features some of the various projects and assignments I have completed during my education. 
+                    </p>
+                </div>
+            </div>
+        </header>
+    
+        <section class="boxes">
+            <div class="container">
+                <div class="box">
+                    <h2> Information Behavior Ethnographic Study</h2>
+                    <p> As part of a course on Human Information Behavior, I completed an ethnographic study on the information behaviors of teachers. </p>
+                    <a href="/Files/Information Behavior Ethnographic Study.pdf"><LINK>Information Behavior Ethnographic Study</LINK></a>
+                </div>
+                <div class="box">
+                    <h2> North Carolina Broadband Policy White Paper</h2>
+                    <p>For an Information Ethics and Policy Course I took, I wrote a White Paper on the policies surrounding municipal broadband in North Carolina.  </p>
+                    <a href="/Files/NC Broadband Policy Paper.pdf"><LINK>NC Broadband Policy White Paper</LINK></a>
+                </div>
+                <div class="box">
+                    <h2> Database Case Study</h2>
+                    <p>I also wrote a Case Study on a Database project for a fictional book store that I completed as part of a course I took on Information Storage and Retrieval.</p>
+                    <a href="/Files/Database Case Study.pdf"><LINK>Database Case Study</LINK></a>
+                </div>
+                <div class="box">
+                    <h2> COVID-19 Disinformation Presentation</h2>
+                    <p>This semester I took a course on Disinformation in which I gave a presentation on COVID-19 Disinformation and Differential Impact.</p>
+                    <a href="/Files/COVID19Disinformation.pdf"><LINK>COVID-19 Disinformation and Differential Impact Presentation</LINK></a>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="logo">Ashleigh Moore</div>
+                        <p>Copyright © 2024</p>
+                    <div class="socialMedia">
+                        <a href="https://github.com/ashleighmoore"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/ashleigh-n-moore/"><i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                        <a href="mailto: anmoore8@uncg.edu"><i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </footer>    
+        </section>
+    </body>
+    </html>

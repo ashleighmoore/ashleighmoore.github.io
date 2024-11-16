@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home | Ashleigh Moore</title>
+    <link rel="stylesheet" href="/CSS/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="master">
+        <div class="nav">
+            <nav>
+
+                    <ul>
+                        <li><a href="home.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="projects.html">Projects & Works</a></li>
+
+                        <li onclick="changingSide()"><i class="ri-menu-fill"> Open</i></li>
+
+                        <!-- https://remixicon.com/icon/close-fill -->
+                        
+                    </ul>
+                </nav>
+
+
+            </div>
+        
+        <div class="sidebar" id="closeMenu">
+            <ul>
+                <li onclick="changingSide()"><i class="ri-close-line"> Close</i></li>
+                <!-- https://remixicon.com/icon/close-close -->
+                <br>
+                <li><a href="home.html">About Me</a></li>  
+                <li><a href="resume.html">Resume</a></li>              
+                <li><a href="projects.html">Projects & Works</a></li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </nav>
+   
+    <header class="header">
+        <div class="container"> <!-- we need the container to lock it into a certain width -->
+            <div>
+                <h1> Ashleigh Moore</h1>
+               
+                <br>
+                    <p>Currently a student pursuing my Bachelor's Degree in Information Science at UNCG. This site gives insight into my professional and educational experience and goals. 
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section class="boxes">
+        <div class="container">
+            <div class="box">
+                <h2><i class="fa-solid fa-user" aria-hidden="true"></i> About Me</h2>
+                <p>My name is Ashleigh Moore. I am from Rocky Mount, NC. I am a senior undergraduate student at UNCG, majoring in Information Science with a concentration in Information Technology Training and Development. I also have a minor in Classical Studies. I am planning to graduate in the Spring of 2025. Some of my specific interests within this field include human information habits, the spread of misinformation & disinformation, and data organization & analysis. I am eager to gain professional experience in the field and am actively pursuing internships and jobs.</p>
+            </div>
+            <div class="box">
+                <h2><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> My Courses</h2>
+                <p>Courses that I have taken include:
+                    <ul>
+                        <li>Human Information Behavior</li>
+                        <li>Data Literacy</li>
+                        <li>Information Storage and Retrieval</li>
+                        <li>UX and Web Site Production</li>
+                        <li>Instructional Design</li>
+                        <li>Disinformation</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="box">
+                <h2><i class="fa-solid fa-image" aria-hidden="true"></i></h2>
+                <table>
+                    <tr>
+                        <th><img src="/Images/me.jpg" alt="An image of me.">
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="logo">Ashleigh Moore</div>
+                    <p>Copyright © 2024</p>
+                <div class="socialMedia">
+                    <a href="https://github.com/ashleighmoore"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/ashleigh-n-moore/"><i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    <a href="mailto: anmoore8@uncg.edu"><i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </footer>    
+    </section>
+</body>
+</html>
